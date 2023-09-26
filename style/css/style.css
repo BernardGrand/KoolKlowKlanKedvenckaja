@@ -1,0 +1,207 @@
+header {
+    background-color: rgb(128, 0, 32);
+    height: 6vh;
+}
+
+footer {
+    background-color: rgb(128, 0, 32);
+    height: 7vh;
+}
+
+h3 {
+    text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 10rem;
+    height: 87vh;
+    background-image: url("../imgs/mainbackg.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+#contentmain {
+    margin: auto;
+    background-color: rgba(128, 0, 32, 0.9);
+    border-radius: 6rem;
+}
+
+
+
+
+/*#region NavIcon1*/
+#navicon1 {
+    background-color: lightgray;
+    padding: 0;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 4rem;
+
+}
+#navicon1base{
+    padding: 6rem 0 6rem 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    background-image: url("../imgs/icon.png");
+    background-position: center;
+    background-size: contain;
+    border-radius: 4rem;
+    color: rgb(255, 204, 51);
+    text-shadow: 0px 0px 5px rgb(107, 0, 0);
+}
+#navicon1hidden1{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(139, 69, 19, 0.2), rgba(139, 69, 19, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 4rem 0 0 4rem;
+}
+#navicon1hidden2{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(255, 255, 240, 0.2), rgba(255, 255, 240, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 0 4rem 4rem 0;
+}
+#navicon1:hover #navicon1base {
+    display: none;
+}
+#navicon1:hover #navicon1hidden1{
+    display: inline;
+}
+#navicon1:hover #navicon1hidden2{
+    display: inline;
+}
+/*#endregion*/
+
+/*#region NavIcon2*/
+#navicon2 {
+    background-color: lightgray;
+    padding: 0;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 4rem;
+
+}
+#navicon2base{
+    padding: 6rem 0 6rem 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    background-image: url("../imgs/icon.png");
+    background-position: center;
+    background-size: contain;
+    border-radius: 4rem;
+    color: rgb(255, 204, 51);
+    border-radius: 4rem;
+    text-shadow: 0px 0px 5px rgb(107, 0, 0);
+}
+#navicon2hidden1{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(139, 69, 19, 0.2), rgba(139, 69, 19, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 4rem 0 0 4rem;
+}
+#navicon2hidden2{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(255, 255, 240, 0.2), rgba(255, 255, 240, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 0 4rem 4rem 0;
+}
+#navicon2:hover #navicon2base {
+    display: none;
+}
+#navicon2:hover #navicon2hidden1{
+    display: inline;
+}
+#navicon2:hover #navicon2hidden2{
+    display: inline;
+}
+/*#endregion*/
+
+/*#region NavIcon3*/
+#navicon3 {
+    background-color: lightgray;
+    padding: 0;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 4rem;
+
+}
+#navicon3base{
+    padding: 6rem 0 6rem 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkgray;
+    background-image: url("../imgs/icon.png");
+    background-position: center;
+    background-size: contain;
+    border-radius: 4rem;
+    color: rgb(255, 204, 51);
+    border-radius: 4rem;
+    text-shadow: 0px 0px 5px rgb(107, 0, 0);
+}
+#navicon3hidden1{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(139, 69, 19, 0.2), rgba(139, 69, 19, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 4rem 0 0 4rem;
+}
+#navicon3hidden2{
+    padding: 5rem 1rem 5rem 1rem;
+    margin: auto;
+    display: none;
+    background-image:
+    linear-gradient(rgba(255, 255, 240, 0.2), rgba(255, 255, 240, 0.2)),
+    url('');
+    height: 100%;
+    background-position: center;
+    border-radius: 0 4rem 4rem 0;
+}
+#navicon3:hover #navicon3base {
+    display: none;
+}
+#navicon3:hover #navicon3hidden1{
+    display: inline;
+}
+#navicon3:hover #navicon3hidden2{
+    display: inline;
+}
+/*#endregion*/
