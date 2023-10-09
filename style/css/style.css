@@ -312,7 +312,54 @@ main{
 /*#endregion*/
 
 /*#region siteicon2*/
+#siteicon2 {
+    position:relative;
+    right: -2rem;
+    left: -2rem;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20rem;
 
+}
+#sitecon2a{
+    position:relative;
+    padding: 0;
+    margin: auto;
+    background-image:
+    linear-gradient(rgba(139, 69, 19, 0.4), rgba(139, 69, 19, 0.4)),
+    url('../imgs/burito.png');
+    background-size: cover;
+    height: 5rem;
+    width: 2.5rem;
+    background-position: center;    
+    border-radius: 20rem 0 0 20rem;
+}
+#sitecon2b{
+    position:relative;
+    padding: 0;
+    margin: auto;
+    background-image:
+    linear-gradient(rgba(255, 255, 240, 0.4), rgba(255, 255, 240, 0.4)),
+    url('../imgs/almas-pite.png');
+    background-size: cover;
+    height: 5rem;
+    width: 2.5rem;
+    background-position: center;
+    border-radius: 0 20rem 20rem 0;
+}
+
+.active2a{
+    right: 0.6rem;
+    scale: 150%;
+}
+
+.active2b{
+    left: 0.6rem;
+    scale: 150%;
+}
 
 
 /*#endregion*/
