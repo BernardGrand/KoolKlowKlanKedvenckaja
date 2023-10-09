@@ -1,11 +1,27 @@
 header {
+    border-bottom: rgb(255, 204, 51) double 0.5rem;
+    color: rgb(255, 255, 240);
     background-color: rgb(128, 0, 32);
     height: 6vh;
 }
-
 footer {
+    border-top: rgb(255, 204, 51) double 0.5rem;
+    padding: 1rem;
+    text-align: right;
+    color: rgb(255, 255, 240);
     background-color: rgb(128, 0, 32);
     height: 7vh;
+}
+footer > p {
+    margin: 0;
+    padding: 0;
+}
+#verysmol {
+    font-size: 60%;
+}
+img {
+    border-radius: 2rem;
+    border: rgb(255, 204, 51) double 0.5rem;
 }
 
 h3 {
@@ -15,20 +31,39 @@ a {
     color: inherit;
     text-decoration: none;
 }
+p {
+    margin: 0;
+    padding: 0;
+}
 
 main{
     padding-top: 10rem;
-    height: 87vh;
+    padding-bottom: 6rem;
+    min-height: 87vh;
+    background-color: transparent;
     background-image: url("../imgs/mainbackg.jpg");
     background-position: center;
     background-size:cover;
 }
 
 #contentmain {
+    padding: 3rem;
     margin: auto;
     background-color: rgba(128, 0, 32, 0.9);
     border-radius: 6rem;
+    border: rgb(255, 204, 51) double 0.5rem;
+    text-align: justify;
+    color: rgb(201, 189, 255);
 }
+
+#contentmain > h1,h2,#contentmain > h3,#contentmain > h4, h5 {
+    color: rgb(255, 204, 51);
+    text-shadow: 0px 0px 3.5px rgb(255, 255, 255);
+}
+#contentmain > h1 {
+    text-align: center;
+}
+
 
 
 
@@ -63,7 +98,7 @@ main{
     display: none;
     background-image:
     linear-gradient(rgba(139, 69, 19, 0.4), rgba(139, 69, 19, 0.4)),
-    url('../imgs/');
+    url('../imgs/hurkak.jpeg');
     background-size: cover;
     height: 100%;
     background-position: center;    
@@ -77,7 +112,7 @@ main{
     display: none;
     background-image:
     linear-gradient(rgba(255, 255, 240, 0.4), rgba(255, 255, 240, 0.4)),
-    url('../imgs/');
+    url('../imgs/lefisheauchocolat.jpg');
     background-size: cover;
     height: 100%;
     background-position: center;
@@ -127,7 +162,7 @@ main{
     display: none;
     background-image:
     linear-gradient(rgba(139, 69, 19, 0.4), rgba(139, 69, 19, 0.4)),
-    url('../imgs/');
+    url('../imgs/burito.png');
     background-size: cover;
     height: 100%;
     background-position: center;    
@@ -141,7 +176,7 @@ main{
     display: none;
     background-image:
     linear-gradient(rgba(255, 255, 240, 0.4), rgba(255, 255, 240, 0.4)),
-    url('../imgs/');
+    url('../imgs/almas-pite.png');
     background-size: cover;
     height: 100%;
     background-position: center;
@@ -225,13 +260,55 @@ main{
 /*#endregion*/
 
 
-
-
-
 /*#region siteicon1*/
+#siteicon1 {
+    position:relative;
+    right: -2rem;
+    left: -2rem;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20rem;
 
+}
+#sitecon1a{
+    position:relative;
+    padding: 0;
+    margin: auto;
+    background-image:
+    linear-gradient(rgba(139, 69, 19, 0.4), rgba(139, 69, 19, 0.4)),
+    url('../imgs/hurkak.jpeg');
+    background-size: cover;
+    height: 5rem;
+    width: 2.5rem;
+    background-position: center;    
+    border-radius: 20rem 0 0 20rem;
+}
+#sitecon1b{
+    position:relative;
+    padding: 0;
+    margin: auto;
+    background-image:
+    linear-gradient(rgba(255, 255, 240, 0.4), rgba(255, 255, 240, 0.4)),
+    url('../imgs/lefisheauchocolat.jpg');
+    background-size: cover;
+    height: 5rem;
+    width: 2.5rem;
+    background-position: center;
+    border-radius: 0 20rem 20rem 0;
+}
 
+.active1a{
+    right: 0.6rem;
+    scale: 150%;
+}
 
+.active1b{
+    left: 0.6rem;
+    scale: 150%;
+}
 /*#endregion*/
 
 /*#region siteicon2*/
@@ -242,11 +319,12 @@ main{
 
 /*#region siteicon3*/
 #siteicon3 {
-    background-color: lightgray;
+    position:relative;
+    right: -2rem;
+    left: -2rem;
+    background-color: transparent;
     padding: 0;
-    margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin: 0;
     height: 5rem;
     width: 5rem;
     border-radius: 20rem;
@@ -260,7 +338,8 @@ main{
     linear-gradient(rgba(139, 69, 19, 0.4), rgba(139, 69, 19, 0.4)),
     url('../imgs/mexikoicsirke.jpg');
     background-size: cover;
-    height: 100%;
+    height: 5rem;
+    width: 2.5rem;
     background-position: center;    
     border-radius: 20rem 0 0 20rem;
 }
@@ -272,31 +351,19 @@ main{
     linear-gradient(rgba(255, 255, 240, 0.4), rgba(255, 255, 240, 0.4)),
     url('../imgs/lekvbejgli.jpg');
     background-size: cover;
-    height: 100%;
+    height: 5rem;
+    width: 2.5rem;
     background-position: center;
     border-radius: 0 20rem 20rem 0;
 }
 
 .active3a{
-    right: 0.55rem;
+    right: 0.6rem;
     scale: 150%;
 }
 
 .active3b{
-    left:80px;
+    left: 0.6rem;
     scale: 150%;
 }
-
-#sitecon3a:hover{
-    scale: 150%;
-}
-#sitecon3:hover > #sitecon3b{
-    scale: 120%;
-}
-
-
-#sitecon3b:hover #sitecon3a{
-    scale: 100%;
-}
-
 /*#endregion*/
