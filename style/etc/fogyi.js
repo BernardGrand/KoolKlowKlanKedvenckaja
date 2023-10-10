@@ -9,4 +9,5 @@ function changeBackgroundColor() {
   navicon1.style.backgroundColor = "black";
   navicon2.style.backgroundColor = "black";
   navicon3.style.backgroundColor = "black";
+  changeButton.style.color = "rgb(182, 23, 62)"
 }
